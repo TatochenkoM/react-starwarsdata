@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'StarWars';
+    src: url('../../fonts/3905.woff') format('woff') /* Pretty Modern Browsers */
+  }
+
+.header{
+    font-family: 'StarWars';
+    font-size: 14px;
+    display: inline-flex;
+    width: 100%;
+    text-shadow:
+    -1px -1px 0 gold,
+    1px -1px 0 gold,
+    -1px 1px 0 gold,
+    1px 1px 0 gold;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 5%;    
+}
+.nav{
+    text-align: center;
+    align-items: center;
+}
+
+.nav ul{
+    margin: auto;
+    display: flex;
+    list-style: none;
+    right: 5%;
+    position: absolute;
+}
+
+.nav li{
+    margin-right: 15px;
+}
